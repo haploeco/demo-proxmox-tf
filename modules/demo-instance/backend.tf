@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "haplolabs-home-tf-state"
+    bucket = "haploeco-home-tf-state"
     key = "demo-instance/terraform.tfstate"
 
     # endpoint = set via -backend-config="endpoint=${s3_endpoint}"
